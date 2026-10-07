@@ -1,0 +1,6 @@
+{
+  "name": "BITUINE UAE | Modern E-Commerce Store",
+  "description": "Shop useful, stylish and affordable products delivered across Dubai, Abu Dhabi, Sharjah and the UAE. Cash on delivery and fast delivery available.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

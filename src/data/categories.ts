@@ -1,0 +1,68 @@
+import { Category } from './types';
+
+export const STORE_CATEGORIES: Category[] = [
+  {
+    id: 'cat-home-kitchen',
+    name: 'Home & Kitchen',
+    slug: 'home-kitchen',
+    description: 'Smart organizers, innovative cookware, and modern essentials for your living spaces.',
+    itemCount: 18,
+    iconName: 'Home',
+  },
+  {
+    id: 'cat-electronics',
+    name: 'Electronics & Gadgets',
+    slug: 'electronics-gadgets',
+    description: 'Wireless charging hubs, desk power solutions, and productivity gadgets.',
+    itemCount: 24,
+    iconName: 'Cpu',
+  },
+  {
+    id: 'cat-beauty',
+    name: 'Beauty & Personal Care',
+    slug: 'beauty-personal-care',
+    description: 'Precision grooming devices, ultrasonic skincare tools, and wellness accessories.',
+    itemCount: 15,
+    iconName: 'Sparkles',
+  },
+  {
+    id: 'cat-fashion',
+    name: 'Fashion & Accessories',
+    slug: 'fashion-accessories',
+    description: 'Minimalist leather wallets, travel bags, and daily carry upgrades.',
+    itemCount: 12,
+    iconName: 'Watch',
+  },
+  {
+    id: 'cat-kids',
+    name: 'Kids & Family',
+    slug: 'kids-family',
+    description: 'Safe silicone dining sets, creative learning gadgets, and family organizers.',
+    itemCount: 9,
+    iconName: 'Smile',
+  },
+  {
+    id: 'cat-lifestyle',
+    name: 'Lifestyle',
+    slug: 'lifestyle',
+    description: 'Car organizers, insulated hydration gear, and outdoor comfort pieces.',
+    itemCount: 14,
+    iconName: 'Compass',
+  },
+  {
+    id: 'cat-new-arrivals',
+    name: 'New Arrivals',
+    slug: 'new-arrivals',
+    description: 'Latest weekly product drops curated for UAE modern homes.',
+    itemCount: 8,
+    iconName: 'Flame',
+  },
+  {
+    id: 'cat-best-sellers',
+    name: 'Best Sellers',
+    slug: 'best-sellers',
+    description: 'Top-rated crowd favorites verified by hundreds of Dubai shoppers.',
+    itemCount: 16,
+    iconName: 'Award',
+  },
+];
